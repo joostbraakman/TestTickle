@@ -1,0 +1,23 @@
+Is het doel van het project duidelijk?
+Is het projectteam beschikbaar voor vragen?
+Zijn de beoogde gebruikers van het op te leveren systeem beschikbaar voor vragen?
+Is voldoende tijd en zijn voldoende mogelijkheden beschikbaar om de beoogde gebruikers te trainen?
+Is de architectuur van het project duidelijk?
+Is de architectuur van de informatievoorziening van de organisatie duidelijk?
+Worden speciale eisen gesteld aan de vertrouwelijkheid van en toegang tot de data?
+Worden speciale eisen gesteld aan de beschikbaarheid van de data?
+Worden speciale eisen gesteld aan de snelheid waarmee de data beschikbaar moet komen?
+Houden externe toezichthouders toezicht op de vertrouwelijkheid en integriteit van de data?
+Zijn er voldoende ontwikkelaars beschikbaar voor het project?
+Hebben de ontwikkelaars voldoende ervaring?
+Zijn er voldoende gebruiksexperts beschikbaar voor het project?
+Hebben de gebruiksexperts voldoende ervaring?
+Zijn er genoeg testers beschikbaar voor het project?
+Hebben de testers voldoende ervaring?
+Worden speciale eisen gesteld aan de snelheid van het systeem?
+Worden speciale eisen gesteld aan het energieverbruik van het systeem?
+Worden speciale eisen gesteld aan de capaciteit van het systeem?
+Moet het systeem samenwerken met andere systemen binnen de organisatie?
+Moet het systeem samenwerken met andere systemen buiten de organisatie?
+Is de beoogde levensduur van het systeem langer dan 2 jaar?
+Wordt het systeem op meerdere omgevingen gebruikt?
