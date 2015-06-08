@@ -365,7 +365,7 @@ public class questionsUI extends javax.swing.JFrame {
         }
         
         if (totalNo > 3) {
-            outcomeString = "Je project bevat geen risico´s. Hoe ga jij je de komende tijd vermaken op je opdracht???\n";
+            outcomeString = "Je project bevat geen risico´s. Hoe wil jij je 8+ gaan verdienen???\n";
             outcomeTextArea.append("\n");
             outcomeTextArea.append(outcomeString);
         }
