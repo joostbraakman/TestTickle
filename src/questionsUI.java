@@ -306,6 +306,7 @@ public class questionsUI extends javax.swing.JFrame {
         }
         
         // show the results in the outcomeTextArea
+        /* actual code, disabled for demo purposes
         for (qaCount = 0; qaCount < qualityAttributes.size(); qaCount++) {
             outcomeTextArea.append(qualityAttributes.get(qaCount).qaName + "\n");
             if (qualityAttributes.get(qaCount).qaNoDontKnow > 8) {
@@ -324,6 +325,50 @@ public class questionsUI extends javax.swing.JFrame {
             }
             outcomeTextArea.append(outcomeString);
         }
+        */
+        // this code is for demo purposes!
+        Integer totalDontKnow = 0;
+        Integer totalYes = 0;
+        Integer totalNo = 0;
+        for (qaCount = 0; qaCount < qualityAttributes.size(); qaCount++) {
+            outcomeTextArea.append(qualityAttributes.get(qaCount).qaName + "\n");
+            
+            if (qualityAttributes.get(qaCount).qaNoDontKnow > 0) {
+                totalDontKnow++;
+                outcomeString = "Niet genoeg informatie, meer onderzoek nodig\n";
+            }
+            else {
+                 if (qualityAttributes.get(qaCount).qaScore > 0) {
+                     totalYes++;
+                     outcomeString = qualityAttributes.get(qaCount).qaDescription;
+                 }
+                 else {
+                     totalNo++;
+                     outcomeString = "Hierover hoef je je geen zorgen te maken\n";
+                 }
+            }
+            outcomeTextArea.append(outcomeString);
+            outcomeTextArea.append("");
+        }
+        if (totalDontKnow > 4) {
+            outcomeString = "Je weet wel erg weinig over je project. Ga je eens inwerken!\n";
+            outcomeTextArea.append("");
+            outcomeTextArea.append(outcomeString);
+        }
+        
+        if (totalYes > 1) {
+            outcomeString = "Je project bevat een hoop risico's! Ga samen met je accountmanager het spel spelen!\n";
+            outcomeTextArea.append("");
+            outcomeTextArea.append(outcomeString);
+        }
+        
+        if (totalNo > 4) {
+            outcomeString = "Je project bevat geen risico´s. Hoe ga jij je de komende tijd vermaken op je opdracht???\n";
+            outcomeTextArea.append("");
+            outcomeTextArea.append(outcomeString);
+        }
+        
+        // end demo purpose code;
         
     }//GEN-LAST:event_resultButtonActionPerformed
 

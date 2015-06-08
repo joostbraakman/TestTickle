@@ -1,0 +1,8 @@
+Geschiktheid;De mate waarin een softwareproduct of computersysteem functies levert die voldoen aan de uitgesproken en veronderstelde behoeften, bij gebruik onder gespecificeerde condities
+Prestatie-efficientie;De prestaties in verhouding tot de hoeveelheid middelen gebruikt onder genoemde condities
+Uitwisselbaarheid;De mate waarin een product, systeem of component informatie uit kan wisselen met andere producten, systemen of componenten, en/of het de gewenste functies kan uitvoeren terwijl het dezelfde hard- of softwareomgeving deelt
+Bruikbaarheid;De mate waarin een product of systeem gebruikt kan worden door gespecificeerde gebruikers om effectief, efficient en naar tevredenheid gespecificeerde doelen te bereiken in een gespecificeerde gebruikscontext
+Betrouwbaarheid;De mate waarin een systeem, product of component gespecificeerde functies uitvoert onder gespecificeerde condities gedurende een gespecificeerde hoeveelheid tijd
+Beveiligbaarheid;De mate waarin een product of systeem informatie en gegevens beschermt zodat personen, andere producten of systemen de juiste mate van gegevenstoegang hebben passend bij hun soort en niveau van autorisatie
+Onderhoudbaarheid;De mate waarin een produt of systeem effectief en efficient gewijzigd kan worden door de aangewezen beheerders
+Overdraagbaarheid;De mate waarin een systeem, product of component effectief en efficient overgezet kan worden van een hardware, software of andere operationele of gebruiksomgeving naar een andere
