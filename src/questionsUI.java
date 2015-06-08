@@ -295,7 +295,10 @@ public class questionsUI extends javax.swing.JFrame {
          * of a new class...
          * i'll look into this later
         */
-        
+        // disable all buttons except 'start' and 'main'
+        nextButton.setEnabled(false);
+        previousButton.setEnabled(false);
+        resultButton.setEnabled(false);
         // calculate the results
         for (qCount = 0; qCount < questions.size(); qCount++) {
             for (qaCount = 0; qaCount < questions.get(qCount).affectedQualityAttributes.size(); qaCount++) {
