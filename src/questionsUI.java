@@ -132,7 +132,9 @@ public class questionsUI extends javax.swing.JFrame {
 
         outcomeTextArea.setEditable(false);
         outcomeTextArea.setColumns(20);
+        outcomeTextArea.setLineWrap(true);
         outcomeTextArea.setRows(5);
+        outcomeTextArea.setWrapStyleWord(true);
         outcomeScrollPane.setViewportView(outcomeTextArea);
 
         questionTextArea.setEditable(false);
@@ -340,7 +342,7 @@ public class questionsUI extends javax.swing.JFrame {
             else {
                  if (qualityAttributes.get(qaCount).qaScore > 0) {
                      totalYes++;
-                     outcomeString = qualityAttributes.get(qaCount).qaDescription;
+                     outcomeString = qualityAttributes.get(qaCount).qaDescription + "\n";
                  }
                  else {
                      totalNo++;
@@ -348,23 +350,23 @@ public class questionsUI extends javax.swing.JFrame {
                  }
             }
             outcomeTextArea.append(outcomeString);
-            outcomeTextArea.append("");
+            outcomeTextArea.append("\n");
         }
-        if (totalDontKnow > 4) {
+        if (totalDontKnow > 3) {
             outcomeString = "Je weet wel erg weinig over je project. Ga je eens inwerken!\n";
-            outcomeTextArea.append("");
+            outcomeTextArea.append("\n");
             outcomeTextArea.append(outcomeString);
         }
         
         if (totalYes > 1) {
             outcomeString = "Je project bevat een hoop risico's! Ga samen met je accountmanager het spel spelen!\n";
-            outcomeTextArea.append("");
+            outcomeTextArea.append("\n");
             outcomeTextArea.append(outcomeString);
         }
         
-        if (totalNo > 4) {
+        if (totalNo > 3) {
             outcomeString = "Je project bevat geen risico´s. Hoe ga jij je de komende tijd vermaken op je opdracht???\n";
-            outcomeTextArea.append("");
+            outcomeTextArea.append("\n");
             outcomeTextArea.append(outcomeString);
         }
         

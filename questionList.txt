@@ -1,4 +1,4 @@
-Bevat de applicatie functionaliteit die gebruikers financieel kan raken, bijvoorbeeld door het maken van berekeningen aangaande de bijtelling van een lease auto?
+﻿Bevat de applicatie functionaliteit die gebruikers financieel kan raken, bijvoorbeeld door het maken van berekeningen aangaande de bijtelling van een lease auto?
 Bevat de applicatie functionaliteit die gebruikers aanzet tot het laten groeien van gezichtsbeharing, bijvoorbeeld door het geven van een impressie van hoe een type baard bij een gezicht valt?
 Bevat de applicatie (afbeeldingen van) dieren in (potentieel) gevaarlijke situaties, bijvoorbeeld door een spelsituatie waarin je een vogel bestuurt?
 Draait de applicatie op een onnodig complexe infrastructuur, bijvoorbeeld door voor het linken van mensen aan opdrachten een cross-platform architectuur te gebruiken?
